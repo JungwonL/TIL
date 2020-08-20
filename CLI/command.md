@@ -38,17 +38,48 @@ cd <PATH>  # 이동하고 싶은 폴더를 PATH에 입력
 ### 생성
 
 - `touch`: 파일 생성
+
+  ```shell
+  touch <a.txt>
+  ```
+
 - `mkdir`: 폴더 생성
 
+  ```shell
+  mkdir <dir name>
+  ```
 
+  
 
-### vi
+### vim
 
 vim 에디터를 사용하여 편집
 
 연습할 수 있는 사이트: [빔어드벤처](https://vim-adventures.com/) 
 
+- `vi`: 읽기
 
+  ```shell
+  vi <a.txt>
+  ```
+
+- `i`: 수정(insert)
+
+  ```sh
+  i # 누른 후 내용 편집
+  ```
+
+- `Esc`: 편집 종료
+
+- `:w`: 저장
+
+- `:q`: 종료
+
+  ```shell
+  :wq # 저장 후 vi종료
+  ```
+
+  
 
 
 
